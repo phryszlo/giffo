@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Shade&family=Butcherman&family=Crimson+Text&family=Faster+One&family=Gemunu+Libre&family=Mochiy+Pop+One&family=Molle&family=Montserrat:wght@300;400&family=Noto+Sans+Mono:wght@300&family=Overpass&family=Rajdhani&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  background-color: #342931ee;
+  color: #df8;
+  min-height: 100vh;
+    font-family: 'Blaka Ink', cursive;
+  /* font-family: 'Bungee Shade', cursive; */
+  /* font-family: 'Butcherman', cursive; */
+  /* font-family: 'Crimson Text', serif; */
+  /* font-family: 'Faster One', cursive; */
+  /* font-family: 'Gemunu Libre', sans-serif; */
+  /* font-family: 'Mochiy Pop One', sans-serif; */
+  /* font-family: 'Molle', cursive; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Noto Sans Mono', monospace; */
+  /* font-family: 'Overpass', sans-serif; */
+  /* font-family: 'Rajdhani', sans-serif; */
+}
+
+.my-app {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 12vw 88vw;
+  /* justify-content: center;
+  align-items: center; */
+  min-height: 100vh;
+  background-color: #080a10;
+}
+
+.title {
+  font-size: 30px;
+  padding-bottom: 1em;
+  margin: 0 auto;
+  height: 4vmin;
+  filter: hue-rotate(180deg) saturate(600%);
+}
+.wrapper {
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.controls-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em auto;
+}
+.img-box {
+  height: 85vmin;
+  max-width: 60vw;
+
+}
+
+.button-case {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.random-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.random-text {
+  font-size: 24px;
+  filter: hue-rotate(290deg) saturate(600%);
+
+}
+.button {
+  /* width: 40vmin; */
+  font-family: 'Blaka Ink', cursive;
+  width: 5em;
+  height: 5em;
+  line-height: 2.5em;
+  margin: .2em;
+  border-radius: 50%;
+  border: 3px solid rgb(158, 247, 244);
+  background-color: transparent;
+  color: #F239;
+  text-shadow: .6px 1.1px #9ff;
+  font-weight: bold;
+  font-size: 27px;
+  /* filter: hue-rotate(220deg) saturate(600%); */
+
+  user-select: none;
+}
+.button:hover {
+  background-color: #ae0732;
+}
+.button:active {
+  background-color: #07a6ae;
+}
